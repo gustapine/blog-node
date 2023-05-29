@@ -1,0 +1,21 @@
+<%- include("partials/header"); -%>
+
+
+    <div class="container compose">
+        <h1>
+            <%= pageTitle %>
+        </h1>
+
+        <form action="/compose" method="post">
+            <label for="title">Título:</label><br>
+            <input type="text" id="title" name="newTitle" placeholder="Coloque o título" required><br>
+          
+            <label for="content">Conteúdo:</label><br>
+            <textarea id="content" name="newContent" placeholder="Coloque o conteúdo" required></textarea><br>
+          
+            <button type="submit">Publicar</button>
+          </form>
+          
+    </div>
+
+    <%- include("partials/footer"); -%>
