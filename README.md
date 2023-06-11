@@ -1,4 +1,4 @@
-# blog-node ☄️
+# Journal Blog in Node ☄️
 ## This is a blog project made for node practicing.
 
 After runinng the command `npm install` in your computer, running the command line `node app` and opening the `http://localhost:7000` at your navigator you'll be possible to see the the blog working.
